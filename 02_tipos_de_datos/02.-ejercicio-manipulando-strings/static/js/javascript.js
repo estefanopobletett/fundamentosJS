@@ -89,6 +89,11 @@ console.log(`mi nombre completo es: ${name1.toUpperCase() + " " + lastname.toUpp
 // Si contiene la palabra "strings"
 // La frase en MAYÚSCULAS
 // La cantidad de caracteres
+let frase = "Hoy aprenderemos sobre strings"
+console.log(`La frase ${frase} contiene la palabra "stringhs"
+    ${frase.includes("strings")}`);
+    console.log(`${frase.toUpperCase()} - Tiene ${frase.length} caracteres.`);
+
 
 // 9️⃣ Comparación de formatos
 // Crea la variable:
@@ -98,6 +103,11 @@ console.log(`mi nombre completo es: ${name1.toUpperCase() + " " + lastname.toUpp
 // El texto en minúsculas
 // El texto en mayúsculas
 // La cantidad de caracteres
+let texto = "Programar es divertido"
+console.log(` Texto original${texto}
+    \ntexto en minusculas: ${texto.toLowerCase()}
+    \ntexto en mayuscula: ${texto.toUpperCase()}
+    \nEl texto tiene: ${texto.length} caracteres`);
 
 // 🔟 Desafío completo integrado
 // Crea las variables:
@@ -108,3 +118,9 @@ console.log(`mi nombre completo es: ${name1.toUpperCase() + " " + lastname.toUpp
 // Convierta el año a texto
 // Indique el tipo de dato del año convertido
 // Muestre todo el mensaje en MAYÚSCULAS
+let curso = "4C";
+let anio = "2026";
+let anioTexto = String(anio); // anio a texto
+
+console.log(` Curso ${curso} del año ${anioTexto}
+    \nAño es de tipo: ${typeof anioTexto}` .toUpperCase());
