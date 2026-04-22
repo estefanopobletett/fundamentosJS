@@ -117,6 +117,9 @@ alert(`3 elevado a 4 es: ${numero**4}
 // Muestra el resultado
 // Indica si el número es mayor o igual a 4 (gana) o menor (pierde)
 function dado(){
-
+let dado = Math.floor(Math.random()*6) + 1;
+alert(`tenemos un dado de 6 caras y haz tirado este.
+    \nTiras el numero: ${dado}
+    \nsi tu numero es mayor a 4 ganas, ganaste? ${dado > 4}`)
 
 }
