@@ -4,6 +4,9 @@
     size: 400px;
 }
 .encabezado{
-    background-color: aquamarine;
     text-align: center;
+}
+
+.btn{
+    box-shadow: 4px 4px 4px gray;
 }
