@@ -125,11 +125,3 @@ if (num1 > num2){
 }
 }
 
-
-function pruebaRedondeo(){
-let numero = 5.8
-let numero2 = 6.9
-let numero3 = 4.6
-let promedio = (numero + numero2 + numero3) / 3
-alert(`El promedio es ${promedio.toFixed(1)}`)
-}
