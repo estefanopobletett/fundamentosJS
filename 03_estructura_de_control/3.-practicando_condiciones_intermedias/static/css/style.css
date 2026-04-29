@@ -1,0 +1,9 @@
+.box{
+    padding: 80px;
+    display: inline-table; 
+    size: 400px;
+}
+.encabezado{
+    background-color: aquamarine;
+    text-align: center;
+}

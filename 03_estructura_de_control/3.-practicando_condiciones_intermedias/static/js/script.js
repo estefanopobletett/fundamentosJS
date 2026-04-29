@@ -67,8 +67,17 @@ if (frase.length > 20){
 // `El producto TECLADO tiene un precio final de $45000`
 
 function ejercicio15() {
-
+let precio = 50000
+let producto = "teclado"
+if (precio >= 50000){
+    alert(`El producto ${producto.toUpperCase()} tiene un precio final de ${precio*0.8} (con el 20% de decuento)`);
+}else if (precio >= 20000){
+    alert(`El producto ${producto.toUpperCase()} tiene un precio final de ${precio*0.9} (con el 10% de decuento)`);
+}else{
+    alert(`El producto ${producto.toUpperCase()} tiene un precio final de ${precio}`);
 }
+}
+
 
 
 
