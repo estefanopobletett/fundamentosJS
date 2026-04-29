@@ -48,9 +48,9 @@ alert(`La multiplicación es: ${num1*num2}`);
 // "El promedio es: 5.7"
 
 function ejercicio5() {
-let nota1 = 5.5
-let nota2 = 5.9
-let nota3 = 6.7
+let nota1 = 6.0
+let nota2 = 5.5
+let nota3 = 5.7
 alert(`El promedio es: ${Math.round((nota1 + nota2 + nota3)/3)}`)
 
 }
@@ -126,3 +126,10 @@ if (num1 > num2){
 }
 
 
+function pruebaRedondeo(){
+let numero = 5.8
+let numero2 = 6.9
+let numero3 = 4.6
+let promedio = (numero + numero2 + numero3) / 3
+alert(`El promedio es ${promedio.toFixed(1)}`)
+}
