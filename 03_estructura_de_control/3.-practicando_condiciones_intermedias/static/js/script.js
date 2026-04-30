@@ -78,8 +78,54 @@ if (precio >= 50000){
 }
 }
 
+function ejercicio16(){
+let nombre = "Estefano"
+let precio = 100000
+let producto = "Mouse"
+if (precio >= 100000){
+    alert(`El cliente ${nombre.toUpperCase()} compró el producto "${producto.toLowerCase()}" que cuesta $${precio}
+    \n por lo cual es un cliente premium, asi que el precio final del producto es de: $${precio*0.8} (con el 20% de decuento)`);
+}else if (precio >= 50000){
+    alert(`El cliente ${nombre.toUpperCase()} compró el producto "${producto.toLowerCase()}" que cuesta $${precio}
+    \n por lo cual es un cliente frecuente, asi que el precio final del producto es de: $${precio*0.9}  (con el 10% de decuento)`);
+}else{
+    alert(`El cliente ${nombre.toUpperCase()} compró el producto "${producto.toLowerCase()}" que cuesta $${precio}
+    \n por lo cual es un cliente normal, asi que el precio final del producto es de: $${precio}`);
+}
+}
 
+function ejercicio17(){
+let frase = "Tung Tung Tung Sahur"
+let puntaje = 80
+if (puntaje >= 90){
+    alert(`la frase "${frase.toLowerCase()}" tiene ${frase.length} caracteres y tiene ${puntaje} puntos
+    \n por lo cual su calificacion es: Exelente`);
+}else if(puntaje >= 70){
+    alert(`la frase "${frase.toLowerCase()}" tiene ${frase.length} caracteres y tiene ${puntaje} puntos
+    \n por lo cual su calificacion es: Buena`)
+}else{
+    alert(`la frase "${frase.toLowerCase()}" tiene ${frase.length} caracteres y tiene ${puntaje} puntos
+    \n por lo cual su calificacion es: insuficiente`)
+}
+}
 
+function ejercicio18(){
+let nombre = "Estefano poblete"
+let nota1 = 5.6
+let nota2 = 6.7
+let nota3 = 4.5
+let promedio = (nota1 + nota2 + nota3)/3
+if (promedio >= 6){
+    alert(`El alumno: ${nombre.toUpperCase()} cuyo nombre tiene ${nombre.length} caracteres
+    \n tiene un promedio ${promedio.toFixed(1)} por lo cual su estado es: Destacado`)
+}else if (promedio >= 4){
+    alert(`El alumno: ${nombre.toUpperCase()} cuyo nombre tiene ${nombre.length} caracteres
+    \n tiene un promedio ${promedio.toFixed(1)} por lo cual su estado es: Aprobado`)
+}else{
+    alert(`El alumno: ${nombre.toUpperCase()} cuyo nombre tiene ${nombre.length} caracteres
+    \n tiene un promedio ${promedio.toFixed(1)} por lo cual su estado es: Desaprobado`)
+}
+}
 
 
 
