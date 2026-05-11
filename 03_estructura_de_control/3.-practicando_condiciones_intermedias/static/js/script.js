@@ -227,8 +227,7 @@ if (precio >= 200000){
 
 // Además:
 
-// Clasificar la frase por tamaño:
-
+// Clasificar la frase por tamaño
 // 30 → Muy larga
 
 // 20 → Larga
